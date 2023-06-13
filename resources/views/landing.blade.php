@@ -5,32 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Full Width Pics - Start Bootstrap Template</title>
+        <title>Portfolio | Adnan</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="startbootstrap-sb-admin-gh-pages/css/styles.css" rel="stylesheet" />
+        {{-- icon --}}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <a class="navbar-brand" href="#!">Sstuff</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact  </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+        <header class="py-5 bg-image-full" style="background-image: url('assets/bg/bgportfolio.jpg');">
             <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
+                <img class="img-fluid rounded-circle mb-4" src="assets/profile/logo sstuff.jpg" alt="..." />
                 <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
                 <p class="text-white-50 mb-0">Landing Page Template</p>
             </div>
@@ -58,8 +62,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Full Width Backgrounds</h2>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi at adipisci similique quidem est eius possimus velit dolor rerum saepe debitis perspiciatis beatae labore id aperiam, itaque, culpa optio suscipit!</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam accusamus ipsum culpa doloremque iste distinctio dolorem sit laudantium cumque voluptatem. Eaque expedita iure autem. Excepturi illo ad ratione? Aperiam.</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +87,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; sstuff 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
