@@ -22,7 +22,22 @@ Route::get('/landing', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard', [
+        "Name" => "Tiger Vixion",
+        "Position" => "Teknik gambar bangunan",
+        "Office" => "Edinburg",
+        "Age" => "61",
+        "Start_date" => "2011/04/25",
+        "Salary" => "$320,800"
+    ]);
+});
+
+Route::get('/home', function () {
+    return ('This page is under Maintenance !');
+});
+
+Route::get('/about', function () {
+    return ('This page is under Maintenance !');
 });
 
 Route::get('/login', function () {
@@ -32,4 +47,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('/password', function () {
+    return view('password');
+});
+
 

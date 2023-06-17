@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Register - SB Admin</title>
+        <title>Register | Portfolio</title>
         <link href="startbootstrap-sb-admin-gh-pages/css/styles.css" rel="stylesheet" />
 
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="login.blade.php">Have an account? Go to login</a></div>
+                                        <div class="small"><a href="/login">Have an account? Go to login</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                            <div class="text-muted">Copyright &copy; sstuff_portfolio 2023</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;

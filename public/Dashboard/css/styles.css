@@ -91,6 +91,13 @@
   }
 }
 
+#header {
+  background-image: url(https://images.unsplash.com/photo-1562330046-f1760d62a90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11241,3 +11248,5 @@ body {
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
 }
+
+

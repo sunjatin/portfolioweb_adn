@@ -38,13 +38,13 @@
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="password.blade.php">Forgot Password?</a>
+                                                <a class="small" href="/password">Forgot Password?</a>
                                                 <a class="btn btn-primary" href="index.blade.php">Login</a>
                                             </div>
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.blade.php">Need an account? Sign up!</a></div>
+                                        <div class="small"><a href="/register">Need an account? Sign up!</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                            <div class="text-muted">Copyright &copy; sstuff_portfolio 2023</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
